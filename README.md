@@ -1,12 +1,12 @@
 # Form-teste
-
-[![Figma](https://img.shields.io/badge/-Figma-ffbaba?style=flat-square&logo=figma)](https://github.com/ildaneta/)
+Project's Figma
+[![Figma](https://www.figma.com/file/sjm4JVBTNSJkpqXXWzd50B/Untitled?node-id=1%3A4)
 
 This project was developed using web based technologies.
 
 
 - [Reactjs](https://reactjs.org/)
-- [Styled-components](https://styled-components.com/)
+- [ass](https://sass-lang.com/)
 
 ## 💻 Getting started
 
@@ -14,13 +14,10 @@ This project was developed using web based technologies.
 Browser
 
 **Clone the project and access the folder**
-
-```bash
-$ git clone https://github.com/BrunoFerreiraDev/my-money.git && cd my-money
-```
+git clone <Url of the project>
+cd <folder of the project>
 
 **Follow the steps below**
-
 
 in the terminal <br/>
 1-execute yarn install or npm i <br/>
