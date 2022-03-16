@@ -1,4 +1,9 @@
 # Form-teste
+
+<br/>
+
+<img src=".github/preview.PNG" width="750" alt="My Money previw">
+
 Project's Figma<br/>
 [![Figma](https://img.shields.io/badge/-Figma-ffbaba?style=flat-square&logo=figma)](https://www.figma.com/file/sjm4JVBTNSJkpqXXWzd50B/Untitled?node-id=1%3A4)
 
