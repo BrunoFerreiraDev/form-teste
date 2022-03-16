@@ -1,7 +1,6 @@
 # Form-teste
 Project's Figma<br/>
-[![Figma](https://img.shields.io/badge/-Figma-ffbaba?style=flat-square&logo=figma)](https://github.com/ildaneta/)
-
+[![Figma](https://img.shields.io/badge/-Figma-ffbaba?style=flat-square&logo=figma)]https://www.figma.com/file/sjm4JVBTNSJkpqXXWzd50B/Untitled?node-id=1%3A4
 
 This project was developed using web based technologies.
 
