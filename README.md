@@ -7,7 +7,7 @@ This project was developed using web based technologies.
 
 
 - [Reactjs](https://reactjs.org/)
-- [ass](https://sass-lang.com/)
+- [sass](https://sass-lang.com/)
 
 ## 💻 Getting started
 
