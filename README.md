@@ -1,6 +1,7 @@
 # Form-teste
-Project's Figma
-[![Figma](https://github.com/ildaneta/)(https://www.figma.com/file/sjm4JVBTNSJkpqXXWzd50B/Untitled?node-id=1%3A4)](https://img.shields.io/badge/-Figma-ffbaba?style=flat-square&logo=figma)
+Project's Figma<br/>
+[![Figma](https://img.shields.io/badge/-Figma-ffbaba?style=flat-square&logo=figma)](https://github.com/ildaneta/)
+
 
 This project was developed using web based technologies.
 
@@ -21,7 +22,7 @@ cd <folder of the project>
 
 in the terminal <br/>
 1-execute yarn install or npm i <br/>
-2-execute yarn start or mpr start <br/>
+2-execute yarn start or mpr start 
 
 
 Made  by Bruno Ferreira 👋 [Check out my LinkedIn](https://www.linkedin.com/in/bruno-ferreira-santos-6b2428214/)
