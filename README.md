@@ -10,7 +10,6 @@ Project's Figma<br/>
 
 This project was developed using web based technologies.
 
-
 - [Reactjs](https://reactjs.org/)
 - [sass](https://sass-lang.com/)
 
