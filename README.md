@@ -12,7 +12,7 @@ Project's Figma<br/>
 
 This project was developed using web based technologies.
 
-- [Reactjs](https://reactjs.org/)
+- [Next JS](https://nextjs.org/docs)
 - [sass](https://sass-lang.com/)
 
 ## 💻 Getting started
