@@ -30,7 +30,7 @@ export default function Payment (){
       <form 
         onSubmit={handleSendOrder} 
         className={styles.Content}>
-        <img src="../../../images/backgroundTopCheckout.svg" alt="" />
+        <img src="../../../images/backgroundTopCheckout.jpg" alt="" />
 
         <div className={styles.PersonalInfo}>
         <span>Insira suas informações para pagamento:</span>
@@ -126,7 +126,7 @@ export default function Payment (){
               />
             </div>
         </div>
-        
+
         <div className={styles.enviar}>
             <button type='submit'>Enviar</button>
             <a type='button' 
