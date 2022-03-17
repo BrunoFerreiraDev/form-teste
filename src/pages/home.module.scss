@@ -48,7 +48,6 @@
         }
     }
     
-    
     .quaisAdesivos{
         display: grid;
         position: relative;
@@ -60,10 +59,13 @@
         font-size: 18px;
         
         label {
-            margin-bottom: 5px;
             font-weight: 500;
             font-size: 14px;
             line-height: 16px;
+            
+            span{
+                margin-left: 5.5px;
+            }
         }
         
         span{
@@ -124,16 +126,18 @@
         top: -20px;
 
        textarea{
-        margin-top: 5px;
-        width: 474px;
-        height: 90.88px;
-        background: #DCE2E8;
-        border: 1px solid #B3B8CC;
-        box-sizing: border-box;
-        border-radius: 10px;
+           width: 474px;
+           height: 90.88px;
+           margin-top: 5px;
+           padding: 10px 0 0 10px;
 
-        padding: 10px 0 0 10px;
-
+           background: #DCE2E8;
+           border: 1px solid #B3B8CC;
+           box-sizing: border-box;
+           border-radius: 10px;
+           
+           resize: none;
+           
         &:focus{
             border: 2px solid #2F3675;
         }
