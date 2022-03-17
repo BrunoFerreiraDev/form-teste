@@ -34,7 +34,7 @@ export default function Payment (){
       <form 
         onSubmit={handleSendOrder} 
         className={styles.Content}>
-        <img src="../../../images/backgroundTopCheckout.jpg" alt="" />
+        <img src="../../../images/backgroundTopCheckout.svg" alt="" />
 
         <div className={styles.PersonalInfo}>
         <span>Insira suas informações para pagamento:</span>
@@ -57,7 +57,7 @@ export default function Payment (){
             </label>
 
             <label htmlFor="#comfirmarSena">
-             Comfirmar Senha
+             Confirmar Senha
             <input type="text"
              id="comfirmarSena"
              placeholder='  Comfirme a Senha' 

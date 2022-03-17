@@ -35,7 +35,7 @@ export default function Home() {
       className={styles.Content} 
       data-testid="form"
       >
-         <img src="../../images/backgroundTop.jpg"  alt="background Top" />  
+         <img src="../../images/backgroundTop.svg"  alt="background Top" />  
 
           <div className={styles.info}>
             <span>Formulálario  </span>

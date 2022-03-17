@@ -1,5 +1,7 @@
 import {render, screen, fireEvent} from '@testing-library/react'
 import Home from '../pages'
+import { StateProvider, statecontext } from '../stateContext'
+
 
 describe('Home component', ()=>{
 
@@ -56,11 +58,20 @@ describe('Home component', ()=>{
     })
 
     it("submitting the form calls onSubmit with value and coin", () => {
-        render(<Home />)
-        const buttonEnviar = screen.getByText("Enviar")
+        render(
+            <StateProvider>
+                <statecontext.Consumer  >
+                {
+                    value => <span>React is: {value.React}</span>
+                }
+             </statecontext.Consumer>
+            </StateProvider>
 
-        fireEvent.click(buttonEnviar)
+        )
+        // const buttonEnviar = screen.getByText("Enviar")
 
-        expect(screen.getByText("Enviar")).toBeTruthy();
+        // fireEvent.click(buttonEnviar)
+
+        expect(screen.getByText("React is: false")).toBeTruthy();
     })
 })
