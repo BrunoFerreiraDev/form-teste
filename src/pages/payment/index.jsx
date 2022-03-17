@@ -7,7 +7,11 @@ import styles from './styles.module.scss'
 
 
 export default function Payment (){
-  const context = useContext(statecontext)
+  const { quantidade,
+          React,
+          Vue,
+          Angular,
+          } = useContext(statecontext)
   const router = useRouter()
 
   function pushUser(){
@@ -16,9 +20,9 @@ export default function Payment (){
 
   function handleSendOrder(){
 
-    if(!(context.React) && !(context.Vue) && !(context.Angular)){
+    if(!(React) && !(Vue) && !(Angular)){
       return alert('Carrinho vazio')
-    }else if(context.quantidade === 0){
+    }else if(quantidade === 0){
       return alert('Adcione algo ao carrinho')
     }
 
@@ -89,7 +93,7 @@ export default function Payment (){
             <input type="checkbox"
              value='React' 
              id="react"
-             checked={context.React}
+             checked={React}
              /> 
              
              <span>React</span>
@@ -99,7 +103,7 @@ export default function Payment (){
             <input type="checkbox"
              value='Vue'  
              id="vue"
-             checked={context.Vue}
+             checked={Vue}
              /> 
              
              <span>Vue</span>
@@ -109,7 +113,7 @@ export default function Payment (){
             <input type="checkbox"
              value='Angular'  
              id="angular"
-             checked={context.Angular}
+             checked={Angular}
              /> 
 
              <span>Angular</span>
@@ -122,7 +126,7 @@ export default function Payment (){
               <input
               data-testid="displayQuantidade"  
               type="number"
-              value={context.quantidade}
+              value={quantidade}
               />
             </div>
         </div>

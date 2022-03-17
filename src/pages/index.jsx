@@ -51,7 +51,8 @@ export default function Home() {
             <label htmlFor="#react">
             <input type="checkbox"
              value='React' 
-             id="react" 
+             id="react"
+             checked={React} 
              onChange={() =>React?setReact(false):setReact(true)}
              /> 
              
@@ -61,7 +62,8 @@ export default function Home() {
             <label htmlFor="#vue">
             <input type="checkbox"
              value='Vue'  
-             id="vue" 
+             id="vue"
+             checked={Vue} 
              onChange={() =>Vue?setVue(false):setVue(true)}
              /> 
              
@@ -72,6 +74,7 @@ export default function Home() {
             <input type="checkbox"
              value='Angular'  
              id="angular" 
+             checked={Angular} 
              onChange={() =>Angular?setAngular(false):setAngular(true)}
              /> 
 
