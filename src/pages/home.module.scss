@@ -1,5 +1,4 @@
 .Container{
-    display: flex;
     width: 100vw;
     height: 100vh;
 
@@ -193,16 +192,14 @@
 
 
     @media(max-width:650px){
-
    
         .Content{
-            width: 375px;    
+            width: 375px;   
+
             .backgroundTopak{
                 img{
                     width: 375px;
-    
                 }
-    
             }  
         }
     
@@ -213,6 +210,7 @@
             line-height: 18px;
     
             span{
+            width: 300px;   
                 &:last-child{
                     font-size: 16px;
             }}
@@ -220,6 +218,9 @@
         
         .quaisAdesivos{
             top: -70.34px;
+            span, label{
+                width: 300px;   
+            }
         }
         .quantidadeAdesivos{
             top: -38.32px;

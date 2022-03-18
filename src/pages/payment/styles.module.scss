@@ -1,5 +1,4 @@
 .Container{
-    display: flex;
     width: 100vw;
     height: 100vh;
 
@@ -157,14 +156,14 @@
 }
 
 @media(max-width:650px){
-
    
     .Content{
-        width: 300px;
+        width: 375px;
+        font-size: 16px;
 
         .backgroundTopak{
             img{
-                width: 300px;
+                width: 375px;
 
             }
 
@@ -172,122 +171,57 @@
     }
    
     .PersonalInfo{
-        padding-left: 38px;
-        display: grid;
-        input{
-            width: 474px;
-            height: 32px;
-        }
-    
         label{
-            font-style: normal;
-            font-weight: 400;
-            line-height: 21px;
-            height: 57px;
-            margin-top: 7px;
-            font-size: 16px;
-         
+            font-size: 12px;
+            input{
+                width: 310px;
+            }     
         }
             
     
         div{
-            width: 474px;
-            display: grid;
-            grid-template-rows: 1;
-            grid-template-columns: 1fr 1fr 1fr;
-            
+            width: 310px;
             label{
                 & + label{
-                    margin-left: 23px;
+                    margin-left: 10px;
                 }
                 input{
-                    width: 140px;
+                    font-size: 10.4px;
+
+                    width: 95px;
                    
                 }
             }
-            
         }
     }
     
     .productInfo{
-        display: grid;
-        font-size: 17px;
-    
-        span:first-child{
-            margin: 25px 0 20px 38px;
-        }
-        .adesivos{
-            margin: 0 25px 20px 38px;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 16px;
-    
-            label{
+        margin-top: 20px;
                 span{
-                    margin-right: 5px;
+                    font-size: 16px;
                 }
-                input{
-                    margin-right: 8px;
-                }
-            }
         }
-    }
     
     .quantidadeAdesivo{
-        font-size: 17px;
+        font-size: 16px;
     
         input{
-            width: 40px;
-            height: 20px;
-            margin-left: 5px;
+            width: 30px;
         }
     }
     
     .enviar{
-        position: relative;
-        width: 550px;
-        height: 85px;
-        left: 0px;
-        top: 63px;
-        border-radius: 0 0 10px 10px;
-    
-        background: #DCE2E8;
-    
-        button, a {
-            background: #2F3675;
-            border-radius: 10px;
-    
-            font-size: 24px;
-            line-height: 28px;
-            color: #EDEDF1;
-    
-            transition: filter 0.2s;
-    
-            &:hover{
-                filter: brightness(0.8);
-            }
-        }
+        width: 375px;
+        top: 78px;
     
         button{
-            position: relative;
-            width: 117px;
-            height: 38px;
-            left: 395px;
-            top: 24px;
+            width: 70px;
+            left: 280px;
         }
     
         a{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-    
-            position: relative;
-            width: 48px;
+            width: 43px;
             height: 38px;
-            left: 38px;
-            top: -14px;
-    
         }
     }
     
