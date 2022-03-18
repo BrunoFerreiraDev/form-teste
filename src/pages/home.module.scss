@@ -27,18 +27,18 @@
     .info{
         display: grid;
         position: relative;
-        left: 38px;
-        right: 53.45%;
         top: -22.44%;
-        bottom: 83.61%;
         
         font-style: normal;
         font-weight: 400;
         line-height: 23px;
         
         color: rgba(255, 255, 255, 0.7);    
-    
+
         span{
+            position: relative;
+            left: 38px;
+
             &:last-child{
                 font-weight: 500;
                 font-size: 22px;
@@ -53,23 +53,27 @@
         display: grid;
         position: relative;
        
-        width: 140px;
         height: 96.79px;
-        left: 49px;
         top: -80.34px;
         font-size: 18px;
         
         label {
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 16px;
+        position: relative;
+        left: 49px;
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
             
             span{
                 margin-left: 5.5px;
             }
         }
         
-        span{
+        span:first-child{
+            position: relative;
+            left: 49px;
+
             line-height: 21px;
             font-weight: 700;
             margin: 10px 0 12px 0;
@@ -81,11 +85,17 @@
         position: relative;
         width: 240px;
         height: 73.68px;
-        left: 38px;
         top: -48.32px;
 
+        span{
+            position: relative;
+            left: 38px;
+        }
 
         .display{
+            position: relative;
+            left: 38px;
+
             display: grid;
             grid-template-rows: 1fr;
             grid-template-columns: 0.25fr 0.25fr 0.25fr;
@@ -123,10 +133,15 @@
     .observacoes{
 
         position: relative;
-        left: 38px;
         top: -20px;
+        span{
+            position: relative;
+           left: 38px;
+        }
 
        textarea{
+           position: relative;
+           left: 38px;
            width: 474px;
            height: 90.88px;
            margin-top: 5px;
@@ -149,7 +164,6 @@
         position: relative;
         width: 550px;
         height: 85px;
-        left: 0px;
         top: 5px;
         border-radius: 0 0 10px 10px;
 
@@ -182,11 +196,10 @@
 
    
         .Content{
-            width: 300px;
-    
+            width: 375px;    
             .backgroundTopak{
                 img{
-                    width: 300px;
+                    width: 375px;
     
                 }
     
@@ -194,9 +207,8 @@
         }
     
         .info{
-            top: -13.44%;
+            top: -15.44%;
             bottom: 83.61%;
-            width: 350px;
             font-size: 14px;
             line-height: 18px;
     
@@ -208,29 +220,26 @@
         
         .quaisAdesivos{
             top: -70.34px;
-            left:30px
         }
         .quantidadeAdesivos{
             top: -38.32px;
-            left:30px;
         }
         
             .observacoes{
-                left:30px;
                 top: -10px;
                textarea{
-                   width: 240px;
+                   width: 290px;
                    height: 110.88px;
                }
             }
         
             .enviar{
-                width: 300px;
+                width: 375px;
                 top: 66px;
                 
                 button{
-                    left: 200px;
                     width: 70px;
+                    left: 255px;
                 }
             }
         

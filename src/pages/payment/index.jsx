@@ -35,7 +35,7 @@ export default function Payment (){
         onSubmit={handleSendOrder} 
         className={styles.Content}>
 
-        <div className={styles.bbackgroundTopak}>
+        <div className={styles.backgroundTopak}>
         <img src="../../../images/backgroundTopCheckout.svg" alt="" />
         </div>
 
