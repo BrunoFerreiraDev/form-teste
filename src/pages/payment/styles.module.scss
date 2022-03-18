@@ -158,12 +158,12 @@
 @media(max-width:650px){
    
     .Content{
-        width: 375px;
+        width: 365px;
         font-size: 16px;
 
         .backgroundTopak{
             img{
-                width: 375px;
+                width: 365px;
 
             }
 
@@ -172,18 +172,18 @@
    
     .PersonalInfo{
         label{
-            font-size: 12px;
+            font-size: 11.5px;
             input{
-                width: 310px;
+                width: 300px;
             }     
         }
             
     
         div{
-            width: 310px;
+            width: 300px;
             label{
                 & + label{
-                    margin-left: 10px;
+                    margin-left: 8.5px;
                 }
                 input{
                     font-size: 10.4px;
@@ -211,12 +211,12 @@
     }
     
     .enviar{
-        width: 375px;
+        width: 365px;
         top: 78px;
     
         button{
             width: 70px;
-            left: 280px;
+            left: 270px;
         }
     
         a{
