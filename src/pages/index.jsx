@@ -36,7 +36,7 @@ export default function Home() {
       className={styles.Content} 
       data-testid="form"
       >
-         <div className={styles.bbackgroundTopak}>
+         <div className={styles.backgroundTopak}>
          <img src="../../images/backgroundTop.svg"  alt="background Top" />
            </div>  
 
