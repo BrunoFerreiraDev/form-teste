@@ -177,4 +177,174 @@
         }
     }
 
-
+@media(max-width:650px){
+    .Content{
+        width: 450px;
+        background: #f2f2f2;
+        height: 615px;
+        color: #000000;
+    
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+    
+        border-radius: 10px;
+    
+        box-shadow: 2px 3px 27px rgba(0, 0, 0, 0.25);
+    
+    }
+    
+        .info{
+            display: grid;
+            position: relative;
+            left: 10%;
+            right: 53.45%;
+            top: -22.44%;
+            bottom: 83.61%;
+            
+            font-style: normal;
+            font-weight: 400;
+            line-height: 23px;
+            
+            color: rgba(255, 255, 255, 0.7);    
+        
+            span{
+                &:last-child{
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 26px;
+        
+                    color: #fffffff5;
+                }
+            }
+        }
+        
+        .quaisAdesivos{
+            display: grid;
+            position: relative;
+           
+            width: 140px;
+            height: 96.79px;
+            left: 49px;
+            top: -80.34px;
+            font-size: 18px;
+            
+            label {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 16px;
+                
+                span{
+                    margin-left: 5.5px;
+                }
+            }
+            
+            span{
+                line-height: 21px;
+                font-weight: 700;
+                margin: 10px 0 12px 0;
+            }
+    
+        }
+    
+        .quantidadeAdesivos{
+            position: relative;
+            width: 240px;
+            height: 73.68px;
+            left: 38px;
+            top: -48.32px;
+    
+    
+            .display{
+                display: grid;
+                grid-template-rows: 1fr;
+                grid-template-columns: 0.25fr 0.25fr 0.25fr;
+    
+                margin-top: 10px;
+                align-items: center;
+            }
+    
+            input{
+                width: 46px;
+                height: 20px;
+                background: #DDE3E9;
+                border: 1px solid #B4B9CC;
+                box-sizing: border-box;
+                border-radius: 5px;
+    
+                &:focus{
+                    border: 2px solid #2F3675;
+                }
+            }
+    
+            button{
+                width: 40px;
+                height: 35px;
+    
+                transition: filter 0.2s;
+    
+                &:hover{
+                    filter: brightness(0.8);
+                }
+            }
+        }
+    
+    
+        .observacoes{
+    
+            position: relative;
+            left: 38px;
+            top: -20px;
+    
+           textarea{
+               width: 474px;
+               height: 90.88px;
+               margin-top: 5px;
+               padding: 10px 0 0 10px;
+    
+               background: #DCE2E8;
+               border: 1px solid #B3B8CC;
+               box-sizing: border-box;
+               border-radius: 10px;
+               
+               resize: none;
+               
+            &:focus{
+                border: 2px solid #2F3675;
+            }
+           }
+        }
+    
+        .enviar{
+            position: relative;
+            width: 550px;
+            height: 85px;
+            left: 0px;
+            top: 5px;
+            border-radius: 0 0 10px 10px;
+    
+            background: #DCE2E8;
+    
+            button{
+                position: relative;
+                width: 117px;
+                height: 38px;
+                left: 395px;
+                top: 24px;
+    
+                background: #2F3675;
+                border-radius: 10px;
+    
+                font-size: 24px;
+                line-height: 28px;
+                color: #EDEDF1;
+    
+                transition: filter 0.2s;
+    
+                &:hover{
+                    filter: brightness(0.8);
+                }
+            }
+        }
+    
+}

@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { useContext } from "react"
 
-import { statecontext } from '../../stateContext';
+import { stateContext } from '../../stateContext';
 
 import styles from './styles.module.scss'
 
@@ -11,7 +11,7 @@ export default function Payment (){
           React,
           Vue,
           Angular,
-          } = useContext(statecontext)
+          } = useContext(stateContext)
   const router = useRouter()
 
   function pushUser(){
@@ -34,7 +34,10 @@ export default function Payment (){
       <form 
         onSubmit={handleSendOrder} 
         className={styles.Content}>
+
+        <div className={styles.bbackgroundTopak}>
         <img src="../../../images/backgroundTopCheckout.svg" alt="" />
+        </div>
 
         <div className={styles.PersonalInfo}>
         <span>Insira suas informações para pagamento:</span>
@@ -91,9 +94,9 @@ export default function Payment (){
         <div className={styles.adesivos}>
         <label htmlFor="#react">
             <input type="checkbox"
-             value='React' 
+             defaultValue='React' 
              id="react"
-             checked={React}
+             defaultChecked={React}
              /> 
              
              <span>React</span>
@@ -101,9 +104,9 @@ export default function Payment (){
 
             <label htmlFor="#vue">
             <input type="checkbox"
-             value='Vue'  
+             defaultValue='Vue'  
              id="vue"
-             checked={Vue}
+             defaultChecked={Vue}
              /> 
              
              <span>Vue</span>
@@ -111,9 +114,9 @@ export default function Payment (){
 
             <label htmlFor="#angular">
             <input type="checkbox"
-             value='Angular'  
+             defaultValue='Angular'  
              id="angular"
-             checked={Angular}
+             defaultChecked={Angular}
              /> 
 
              <span>Angular</span>
@@ -126,7 +129,7 @@ export default function Payment (){
               <input
               data-testid="displayQuantidade"  
               type="number"
-              value={quantidade}
+              defaultValue={quantidade}
               />
             </div>
         </div>

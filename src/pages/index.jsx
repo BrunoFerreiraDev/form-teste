@@ -2,12 +2,13 @@ import { useRouter } from 'next/router';
 import {useState} from 'react'
 import { useContext } from "react"
 
-import { statecontext } from '../stateContext';
+import { stateContext } from '../stateContext';
 
 import styles from './home.module.scss'
 
 
 export default function Home() {
+
   const { quantidade,
           setQuantidade,
           React,
@@ -15,7 +16,7 @@ export default function Home() {
           Vue,
           setVue,
           Angular,
-          setAngular} = useContext(statecontext)
+          setAngular} = useContext(stateContext)
 
   const router = useRouter();
   const [observacoes, setObservacoes] = useState('')
@@ -23,7 +24,7 @@ export default function Home() {
   function handleCreateOrder(event) {
     event.preventDefault();
 
-    router.push('/payment')
+    return router.push('/payment')
     
   }
 
@@ -35,7 +36,9 @@ export default function Home() {
       className={styles.Content} 
       data-testid="form"
       >
-         <img src="../../images/backgroundTop.svg"  alt="background Top" />  
+         <div className={styles.bbackgroundTopak}>
+         <img src="../../images/backgroundTop.svg"  alt="background Top" />
+           </div>  
 
           <div className={styles.info}>
             <span>Formulálario  </span>
